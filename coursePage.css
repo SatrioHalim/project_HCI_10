@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#7D92AD;
+    height: 100%;
+    width: 100%;
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn{
+    from {
+        opacity : 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.web-page{
+    height: 100%;
+    width: 1600px;
+    display: flex;
+    flex-direction: row;
+    /* border: solid 1px black; */
+}
+.menu{
+    height: 678px;
+    width: 300px;
+    background-color: #B4CDEC;
+    margin-left: 0px;
+    border-radius: 0px 20px 0px 0px;
+    /* border: solid 1px black; */
+    position: sticky;
+    top: 0px;
+    
+}
+#menu-list{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 55px;
+    margin-top: 70px;
+    font-size: 23px;
+    list-style-type: none;
+}
+#menu-list a{
+    text-decoration: none;
+}
+#home-menu{
+    color: #3A4750;
+    transition: color 0.5s;
+}
+#home-menu:hover{
+    color: #9eacbf;
+}
+#course-menu{
+    color: white;
+    transition: color 0.5s;
+}
+#course-menu:hover{
+    color: #9eacbf;
+}
+#community-menu{
+    color: #3A4750;
+    transition: color 0.3s;
+}
+#community-menu:hover{
+    color: #9eacbf;
+}
+#menu-list li{
+    margin-top: 20px;
+}
+#menu-list i{
+    margin-right: 20px;
+}
+#font_forsa{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #5a666f;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.content{
+    height: 1520px;
+    width: 1200px;
+    /* border: solid 1px black; */
+}
+.content a{
+    text-decoration: none;
+}
+.container_profile{
+    margin-top: 0px;
+    height: 90px;
+    width: 1200x;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+    background-color: #7D92AD;
+}
+#icon_profile{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.container_search-bar{
+    position: sticky;
+    top: 90px;
+    width: 1200px;
+    height: 110px;
+    border: 1px solid #7D92AD;
+    background-color: #7D92AD;
+    margin-top: 0px;
+}
+.search-bar{
+    /* border: 1px solid black; */
+    width: 1001px;
+    height: 52px;
+    margin-top: 40px;
+    margin-left: 110px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    background-color: #5E6F81;
+    border-radius: 25px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+    top: 0px;
+    
+}
+.search-bar p{
+    color: white;
+    opacity: 55%;
+    margin-left: 40px;
+}
+.search-bar i{
+    color: white;
+    opacity: 55%;
+    margin-left: 740px;
+}
+#font-course{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    margin-left: 105px;
+    color: white;
+}
+.container-course{
+    height: 280px;
+    width: 1100px;
+    margin-top: 50px;
+    margin-left: 55px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    /* border: 1px solid black; */
+}
+#image_course_001{
+    height: 280px;
+    width: 220px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+.box{
+    margin-left: 50px;
+    height: 280px;
+    width: 220px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    
+}

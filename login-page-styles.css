@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    background: #7D92AD;
+    overflow: hidden;
+}
+
+.login h2{
+    /* font-size: 1rem; */
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.forsa-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 2px;
+    margin-top: 1.5rem;
+    animation: glow 1s ease-in-out infinite alternate;
+    color: white;
+}
+
+@-webkit-keyframes glow {
+    from{
+        text-shadow: 0 0 10px black;
+    }
+    to{
+        text-shadow: 0 0 30px black, 0 0 20px darkblue; 
+    }
+}
+
+.wrapper{
+    /* display: flex; */
+    width: 600px;
+    height: 600px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    /* box-shadow: 0 20px 30px 40px rgba(0, 0, 0, 0.1); */
+}
+
+input:focus{
+    border: 1px solid white;
+}
+
+form input{
+    color: white;
+    background-color: rgba(58, 71, 80, 0.47);
+    width: 390px;
+    height: 52px;
+    outline: none;
+    padding: 8px 33px;
+    margin-bottom: 12px;
+    border-radius: 25px;
+    border: 1px solid rgba(217, 217, 217, 0.3);
+    box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.25);  
+    
+}
+
+form input::placeholder{
+    color: #d9d9d9;
+    opacity: 45%;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+.button-login{
+    cursor: pointer;
+    margin-top: 15px;
+    width: 390px;
+    height: 52px;
+    background-color: #344966;
+    padding: 6px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 25px;
+    color: white;
+    border: 1px solid #344966;
+    box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.25); 
+    transition: background-color 0.5s ease, color 0.5s ease-in, border 0s ease;
+}
+
+.button-login:hover{
+    box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.35); 
+    color: #344966;
+    background-color: rgba(255, 255, 255, 0.584);
+    border: 1px solid none;
+}
+
+.verified-forgot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.verified-forgot p{
+    margin-left: 4.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.5s ease;
+}
+
+.verified-forgot p:hover{
+    color: #344966;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+.verified-forgot a{
+    padding: 8px 0px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 30%;
+    height: 2.2rem;
+    background-color: #344966;
+    font-size: 0.9rem;
+    border-radius: 25px;
+    color: white;
+    border: 1px solid #344966;
+    box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.25); 
+    transition: background-color 0.5s ease, color 0.5s ease-in, border 0s ease;
+}
+
+.have-account{
+    margin-top: 9px;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.have-account a{
+    margin-left: 3rem;
+    color: #344966;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.5s ease;
+}
+.have-account a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.or h2{
+    margin: 2.5rem 0;
+    color: #3A4750;
+}
+
+.continue-google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 390px;
+    margin-left: 5.3rem;
+    padding: 10px 2px;
+    border-radius: 25px;
+    background-color: rgba(52, 73, 102, 0.48);
+    box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.7s ease;
+}
+
+.continue-google:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.continue-google a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 1rem;
+    
+}
+

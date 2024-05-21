@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login-page-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="forsa-title">
+        <h1>Forsa</h1>
+    </div>
+    <div class="wrapper">
+        <div class="login">
+            <h2>Log In</h2>
+        </div>
+        <form action="" onsubmit="login(event)">
+            <input type="email" placeholder="E-mail" id="login-email">
+            <input type="password" placeholder="Password" id="login-password">
+            <div class="verified-forgot">
+                <a href="#">I'm a verified lecturer</a>
+                <p>Forgot Password?</p>
+            </div>
+            <button class="button-login">Log In</button>
+        </form>
+
+       
+        <div class="have-account">
+            Don't have an account yet? <a href="register-page.html">CREATE AN ACCOUNT</a>
+        </div>
+
+        <div class="or">
+            <H2>OR</H2>
+        </div>
+        
+        <div class="continue-google">
+            <img src="./assets/googleicon.png" alt="gambar gugel">
+            <a href="">Continue with Google</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

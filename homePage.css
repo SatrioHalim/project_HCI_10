@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#7D92AD;
+    height: 100%;
+    width: 100%;
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn{
+    from {
+        opacity : 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.web-page{
+    height: 100%;
+    width: 1600px;
+    display: flex;
+    flex-direction: row;
+    /* border: solid 1px black; */
+}
+.menu{
+    height: 678px;
+    width: 300px;
+    background-color: #B4CDEC;
+    margin-left: 0px;
+    border-radius: 0px 20px 0px 0px;
+    /* border: solid 1px black; */
+    position: sticky;
+    top: 0px;
+    
+}
+#menu-list{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 55px;
+    margin-top: 70px;
+    font-size: 23px;
+    list-style-type: none;
+}
+#menu-list a{
+    text-decoration: none;
+}
+#home-menu{
+    color: white;
+    transition: color 0.5s;
+}
+#home-menu:hover{
+    color: #9eacbf;
+}
+#course-menu{
+    color: #3A4750;
+    transition: color 0.5s;
+}
+#course-menu:hover{
+    color: #9eacbf;
+}
+#community-menu{
+    color: #3A4750;
+    transition: color 0.3s;
+}
+#community-menu:hover{
+    color: #9eacbf;
+}
+#menu-list li{
+    margin-top: 20px;
+}
+#menu-list i{
+    margin-right: 20px;
+}
+#font_forsa{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #5a666f;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.content{
+    height: 1520px;
+    width: 1200px;
+    /* border: solid 1px black; */
+}
+.content a{
+    text-decoration: none;
+}
+.container_profile{
+    margin-top: 20px;
+    height: 90px;
+    width: 1200x;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+    background-color: #7D92AD;
+}
+#icon_profile{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.container_recommended_see_all{
+    height: 50px;
+    width: 1100px;
+    /* border: 2px solid black; */
+    margin-top: 25px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.container_recommended_see_all a{
+    text-decoration: none;
+}
+#image_course_001{
+    height: 280px;
+    width: 220px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+#image_video_001{
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+#box_see_all{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    margin-left: 390px;
+    width: 130px;
+    height: 45px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #5D728E;
+}
+#font_recommended_course{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 5px;
+    color: white;
+    /* border: 2px solid black; */
+    width: 500px;
+}
+.container_recommended_course{
+    height: 280px;
+    width: 1100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    /* border: 2px solid black; */
+}
+.box{
+    margin-left: 50px;
+    height: 280px;
+    width: 220px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+}
+.iklan{
+    height: 110px;
+    width: 1030px;
+    margin-left: 70px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-size: 15px;
+}
+#font-iklan{
+    color: black;
+}
+#font_recommended_video_based_learning{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 5px;
+    color: white;
+    margin-left: 70px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.container_recommended_video{
+    height: 200px;
+    width: 1500px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;    
+    margin-left: 20px;
+}
+.box_recommended_video{
+    margin-left: 50px;
+    height: 200px;
+    width: 300px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-size: larger;
+}
+#box_video_001{
+    background-color: #FFC107;
+}
+#box_video_002{
+    background-color: #D9D9D9;
+}
+#font_favorite_note{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 5px;
+    color: white;
+    margin-left: 70px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.container_favorite_notes{
+    height: 300px;
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    /* border: solid 1px black; */
+}
+.icon_favorite_note{
+    max-width: 100%;
+    max-height: 300px;
+    margin-left: 50px;
+}
