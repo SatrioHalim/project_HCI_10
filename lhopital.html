@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Page</title>
+    <link rel="stylesheet" href="lhopital.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <div class="web-page">
+        <div class="menu">
+            <h2 id="font_forsa">FORSA</h2>
+            <ul id="menu-list">  
+                <a href="homePage.html"><li id="home-menu"><i class="fa-solid fa-house"></i>Home</li></a>
+                <a href="coursePage.html"><li id="course-menu"><i class="fa-solid fa-book-open"></i>Course</li></a>
+                <a href=""><li id="community-menu"><i class="fa-solid fa-users"></i>Community</li></a>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="container_profile">
+                <a href="">
+                    <img src="/assets/icon profile.png" alt="profile" id="icon_profile">
+                </a>
+            </div>
+            <div class="container_course_title">
+                <a href="coursePage.html"><p id="font-course">COURSE</p></a>
+                <p id="font_tanda" style="color: lightgray;">></p> 
+                <a href="courseCalculus.html"><p id="font-calculus">CALCULUS</p></a>  
+                <p id="font_tanda">></p> 
+                <p id="font-lhopital">L'HÔPITAL</p> 
+            </div>
+            <div class="video_container">
+                <video width="800" height="450" controls muted>
+                    <source src="assets/example_video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video_title_container">
+                <p id="title_video">L'HÔPITAL Rules by Prof. Chipi Chapa</p>
+                <div class="views_container">
+                    <i class="fa-regular fa-eye"></i>
+                    <p>Views 1.2K</p>
+                </div>
+                <div class="likes_container">
+                    <i class="fa-regular fa-heart"></i>
+                    <p>Likes 964</p>
+                </div>
+            </div>
+            <div class="description_container" id="desc_cont">
+                <p id="desc_title">L'HÔPITAL Rules</p>
+                <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Phasellus imperdiet<span id="dots" class="cls_dots">...</span><span id="more" class="cls_more">erisque 
+                    enim ligula venenatis dolor. Maecenas nisl est, ultrices nec 
+                    congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut 
+                    aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. 
+                    In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec 
+                    vitae dui eget tellus gravida venenatis. Integer fringilla congue eros 
+                    non fermentum. Sed dapibus pulvinar nibh tempor porta.</span><span onclick="myFunction()" id="see_more">SEE MORE</span></p>
+            </div>
+            <div class="comment_section">
+                <p id="open_dis">OPEN DISCUSSION</p>
+                <div class="post_container">
+                    <div class="nickname_section">
+                        <div id="circle"></div>
+                        <p>You</p>
+                    </div>
+                    <div class="post_section">
+                        <form id="post">
+                            <label for="comment"></label>
+                            <input type="text" name="comment" id="comment_you" placeholder="Write your problem here...">
+                            <input type="submit" value="Post">
+                        </form>
+                    </div>
+                </div>
+                <div class="npc_container">
+                    <div class="npc_header">
+                        <div id="circle"></div>
+                        <p>Username123</p>
+                        <div id="dots"></div>
+                        <p id="time_npc">12 minutes ago</p>
+                    </div>
+                    <div class="npc_comment_section">
+                        <div class="npc_comment">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Mollitia necessitatibus praesentium at obcaecati impedit 
+                            nihil sint culpa animi cupiditate! Eligendi, cumque! Quidem 
+                            dolorum, vel blanditiis ipsam fuga natus aut perspiciatis.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="lim_script.js"></script>
+</body>
+</html>

@@ -20,7 +20,7 @@ function login(e){
     else if(!email.value.endsWith("@user.ac.id")) alert("Wrong email format. Use Forsa user email (@user.ac.id)!!")
     else if(password.value.length < 9 && password.value.length != 0) alert("Password must be more than 8 characters!")
     else if(password.value.length == 0) alert("Password must be filled!")
-    else alert('successful!')
+    else window.location.href = 'homePage.html'
 }
 
 function formValidation(e){
@@ -75,7 +75,7 @@ function formValidation4(e){
     else if(university.length == 0) alert("University must be filled!")
     else if(major.length == 0) alert("Major must be filled!")
     else if(job.length == 0) alert("Occupation must be filled!")
-    else window.location.href = '#'
+    else window.location.href = 'homePage.html'
 }
 
 // function showPassword(){

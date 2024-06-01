@@ -7,6 +7,7 @@ body{
     height: 100%;
     width: 100%;
     animation: transitionIn 0.75s;
+    overflow-x: hidden;
 }
 @keyframes transitionIn{
     from {
@@ -26,7 +27,7 @@ body{
     /* border: solid 1px black; */
 }
 .menu{
-    height: 678px;
+    height: 695px;
     width: 300px;
     background-color: #B4CDEC;
     margin-left: 0px;
@@ -94,7 +95,7 @@ body{
     text-decoration: none;
 }
 .container_profile{
-    margin-top: 20px;
+    margin-top: 0px;
     height: 90px;
     width: 1200x;
     /* border: 2px solid black; */
@@ -125,6 +126,9 @@ body{
 }
 .container_recommended_see_all a{
     text-decoration: none;
+    width: 130px;
+    height: 45px;
+    margin-left: 390px;
 }
 #image_course_001{
     height: 280px;
@@ -146,7 +150,7 @@ body{
     font-weight: normal;
     font-style: normal;
     color: white;
-    margin-left: 390px;
+    /* margin-left: 390px; */
     width: 130px;
     height: 45px;
     /* border: 2px solid black; */
