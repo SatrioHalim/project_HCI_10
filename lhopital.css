@@ -453,7 +453,7 @@ video{
     color: white;
     margin-left: 15px;
 }
-#dots{
+#dots_dec{
     width: 5px;
     height: 5px;
     background-color: white;
@@ -466,9 +466,9 @@ video{
 }
 .npc_comment_section{
     width: 1048px;
-    height: 108px;
+    height: 148px;
     background-color: #4D5E71;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight:normal;
@@ -476,4 +476,39 @@ video{
     font-size: 20px;
     color: white;
     text-align: justify;
+    border-radius: 0px 0px 20px 20px;
+}
+.npc_comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 900px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.npc_symbol_container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    height: 35px;
+    width: 200px;
+    /* border: 1px solid black; */
+    margin-left: 70px;
+}
+.npc_symbol_container p{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    font-size: 13px;
+    color: white;
+    margin-left: 8px;
+    margin-right: 10px;
+}
+.npc_symbol_container i{
+    font-size: 18px;
+    color: white;
 }
