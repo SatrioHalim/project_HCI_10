@@ -26,7 +26,7 @@ body{
     /* border: solid 1px black; */
 }
 .menu{
-    height: 678px;
+    height: 100vh;
     width: 300px;
     background-color: #B4CDEC;
     margin-left: 0px;
