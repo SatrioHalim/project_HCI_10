@@ -30,7 +30,7 @@ body{
 .menu{
     height: 100vh;
     width: 300px;
-    background-color: #B4CDEC;
+    background-color: rgba(180, 205, 236,0.35);
     margin-left: 0px;
     border-radius: 0px 20px 0px 0px;
     /* border: solid 1px black; */
