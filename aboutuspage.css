@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#7D92AD;
+    height: 100%;
+    width: 100%;
+    animation: transitionIn 0.75s;
+    overflow-x: hidden;
+}
+@keyframes transitionIn{
+    from {
+        opacity : 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    background-color: #7D92AD;
+    border: 1px solid black;
+    width: 1550px;
+    height: 100px;
+    padding-left: 100px;
+}
+nav a{
+    text-decoration: none;
+}
+.forsa{
+    margin-left: 100px;
+}
+#font_forsa{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+    font-size: 25px;
+    color: rgba(14, 24, 33, 1);
+}
+.container_login{
+    width: 140px;
+    height: 51px;
+    border-radius: 25px;
+    background-color: rgba(52, 73, 102, 1);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 1100px;
+}

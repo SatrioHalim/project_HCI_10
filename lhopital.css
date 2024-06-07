@@ -387,9 +387,14 @@ video{
     margin-left: 25px;
     background-color: #4D5E71;
     border: none;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
 }
 #post input:focus{
-    border: 2px solid white;
+    outline: none;
     color: white;
     font-size: 15px;
     font-family: "Outfit", sans-serif;
