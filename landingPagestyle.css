@@ -225,6 +225,7 @@ body{
     font-weight: bold;
     color: white;
     letter-spacing: 4px;
+    cursor: pointer;
 }
 .navbarlist{
   display: flex;
