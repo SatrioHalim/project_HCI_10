@@ -79,16 +79,16 @@ post.addEventListener("submit",(e)=>{
     let comment = document.getElementById("post").value;
     if(comment.length != 0){
         alert("Post Succesfully added !");
-        
     } else {
         alert("Fill in the notes first!");
     }
     comment = "";
-    document.getElementById("post_notes").reset();
 })
 post.addEventListener("reset",(e)=> {
   e.preventDefault();
   previewDefaultText.style.display = null;
   previewImage.style.display = null;
   previewImage.setAttribute("src", "");
+  let comment = document.getElementById("post");
+  comment.value = "";
 })
