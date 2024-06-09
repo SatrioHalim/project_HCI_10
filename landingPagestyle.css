@@ -72,7 +72,7 @@ body{
     font-size: 20px;
     transform: rotate3d(0, 1, 0, 90deg);
     transform-origin: left center;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .sidebar.open {
@@ -82,8 +82,8 @@ body{
     list-style: none;
 }
 
-.sidebar li:hover,
-.sidebar li.active {
+.sidebar li:hover{
+    transition: ease-in 0.2s;
     background: #0000003f;
 }
 

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.edit_profile_content{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+.img_container{
+    width: 400px;
+    height: 500px;
+    border: 1px solid red;
+}
+.edit_container{
+    width: 400px;
+    height: 500px;
+    border: 1px solid blue;
+}

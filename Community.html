@@ -17,13 +17,13 @@
             <ul id="menu-list">  
                 <a href="homePage.html"><li id="home-menu"><i class="fa-solid fa-house"></i>Home</li></a>
                 <a href="coursePage.html"><li id="course-menu"><i class="fa-solid fa-book-open"></i>Course</li></a>
-                <a href="#"><li id="community-menu"><i class="fa-solid fa-users"></i>Community</li></a>
+                <a href="Community.html"><li id="community-menu"><i class="fa-solid fa-users"></i>Community</li></a>
             </ul>
         </div>
         <div class="content">
             <div class="container_profile">
                 <a href="">
-                    <img src="/assets/icon profile.png" alt="profile" id="icon_profile">
+                    <img src="assets/icon profile.png" alt="profile" id="icon_profile">
                 </a>
             </div>
             <div class="main-sidebar">
@@ -144,14 +144,39 @@
                     <p>POST YOUR NOTES !</p>
                 </div>
                 <div class="post_desc">
-                    <div class="course_category">
-                        <p>COURSE CATEGORY<span style="color: red;">*</span></p>
-                        <div class="symbol" id="dropdown-symbol" onclick="toggleCategory()">
-                            <i class="fa-solid fa-caret-down"></i>
-                       </div>
+                    <div class="course_category" id="category_list">
+                        <div class="title_cate_cont">
+                            <p id="category_title">COURSE CATEGORY<span style="color: red;">*</span></p>
+                            <div class="symbol" id="dropdown-symbol" onclick="toggleCategory()">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                        <div class="categories" onclick="toggleCategory()"><p>Calculus</p></div>
+                        <div class="categories" onclick="toggleCategory()"><p>Human Computer Interaction</p></div>
+                        <div class="categories" onclick="toggleCategory()"><p>Basic Statistics</p></div>
+                        <div class="categories" onclick="toggleCategory()"><p>Linear Algebra</p></div>
+                        <div class="categories" onclick="toggleCategory()"><p>Indonesian</p></div>
                     </div>
                     <form id="post_notes">
-                        
+                        <div class="container_post">
+                            <div class="container_post_image">
+                                <div class="preview_img_box" id="preview_box">
+                                    <img src="" alt="img" class="img_preview" id="img_prvw">
+                                    <p class="preview_text" id="txt_prvw">Image Preview</p>
+                                </div>
+                                <input type="file" name="inpFile" id="inpFile">
+                                <label for="inpFile">UPLOAD FILE</label>
+                            </div>
+                            <div class="container_post_notes">
+                                <p id="post_txt_title">Post Notes Here</p>
+                                <input type="text" name="post" id="post" placeholder="Type Something ...">
+                                <p id="system_notes">By posting this note, you acknowledge that your submission may be considered for recommendation on our page.<span style="color: red;">**</span></p>
+                            </div>
+                        </div>
+                        <div class="container_submit_discard">
+                            <input type="reset" value="DISCARD">
+                            <input type="submit" value="POST">
+                        </div>
                     </form>
                 </div>
             </div>
