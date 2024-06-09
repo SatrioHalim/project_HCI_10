@@ -53,3 +53,8 @@ post.addEventListener("submit",(e)=>{
     comment = "";
     document.getElementById("post").reset();
 })
+function backHome(){
+    window.location.href = "homePage.html";
+}
+
+

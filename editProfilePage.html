@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile | Forsa</title>
+    <link rel="stylesheet" href="editProfilePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <i class="fa-solid fa-xmark" style="margin-right: 150px;" onclick="backProfileNo()"></i>
+        <p class="nav" style="cursor:default;">EDIT PROFILE</p>
+        <i class="fa-solid fa-check" style="margin-left: 150px;" onclick="backProfileYes()"></i>
+    </nav>
+    <div class="content">
+        <div class="left_content">
+            <div class="image_cont">
+                <div class="preview_img_box" id="preview_box">
+                    <img src="assets/Screenshot 2024-06-06 063021.png" alt="img" class="img_preview" id="img_prvw">
+                    <p class="preview_text" id="txt_prvw">Image Preview</p>
+                </div>
+                <input type="file" name="inpFile" id="inpFile">
+                <label for="inpFile">CHANGE IMAGE</label>
+            </div>
+            <div class="edit01">
+                <p class="title">Identity</p>
+                <p class="types">Name</p>
+                <p class="non_edit">Fulan bin Fulan ( non-edit )</p>
+                <p class="types">Username</p>
+                <input type="text" name="txt" id="txt" placeholder="editable once/a month">
+                <p class="types">Gender</p>
+                <p class="non_edit">Male ( non-edit )</p>
+                <p class="types">Age</p>
+                <p class="non_edit">20 ( non-edit )</p>
+            </div>
+        </div> 
+        <div class="right_content">
+            <p class="title" style="margin-top: 15px;">Contact</p>
+            <p class="types">Email</p>
+            <input type="text" name="txt" id="email" placeholder="edit here...">
+            <p class="types">Phone Number</p>
+            <input type="text" name="txt" id="phone" placeholder="edit here...">
+            <p class="title" style="margin-top: 30px;">Education</p>
+            <p class="types">Level of Education</p>
+            <input type="text" name="txt" id="txt" placeholder="edit here...">
+            <p class="types">University / Institution</p>
+            <input type="text" name="txt" id="txt" placeholder="edit here...">
+            <p class="types">Major</p>
+            <input type="text" name="txt" id="txt" placeholder="edit here...">
+            <p class="types">Occupation</p>
+            <input type="text" name="txt" id="txt" placeholder="edit here...">
+        </div>
+    </div>
+    
+    <script src="editProfile.js"></script>
+</body>
+</html>
