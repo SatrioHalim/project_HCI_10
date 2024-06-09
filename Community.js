@@ -83,6 +83,7 @@ post.addEventListener("submit",(e)=>{
         alert("Fill in the notes first!");
     }
     comment = "";
+    document.getElementById("post").value = "";
 })
 post.addEventListener("reset",(e)=> {
   e.preventDefault();
@@ -92,3 +93,95 @@ post.addEventListener("reset",(e)=> {
   let comment = document.getElementById("post");
   comment.value = "";
 })
+let n = 0;
+function calculus(){
+  let symbol = document.getElementById("dropdown-symbol");
+  let category = document.getElementById("category_list");
+  let selected = document.getElementById("calculus01");
+  symbol.classList.toggle("rot");
+  category.classList.toggle("active");
+  if(n == 0){
+    selected.style.display = "flex";
+    n = 1;
+  } else if(n != 0){
+    alert("can only choose 1 category !");
+  }
+  
+}
+function hci(){
+  let symbol = document.getElementById("dropdown-symbol");
+  let category = document.getElementById("category_list");
+  let selected = document.getElementById("hci01");
+  symbol.classList.toggle("rot");
+  category.classList.toggle("active");
+  if(n == 0){
+    selected.style.display = "flex";
+    n = 1;
+  } else if(n != 0){
+    alert("can only choose 1 category !");
+  }
+}
+function bastat(){
+  let symbol = document.getElementById("dropdown-symbol");
+  let category = document.getElementById("category_list");
+  let selected = document.getElementById("bastat01");
+  symbol.classList.toggle("rot");
+  category.classList.toggle("active");
+  if(n == 0){
+    selected.style.display = "flex";
+    n = 1;
+  } else if(n != 0){
+    alert("can only choose 1 category !");
+  }
+}
+function linear(){
+  let symbol = document.getElementById("dropdown-symbol");
+  let category = document.getElementById("category_list");
+  let selected = document.getElementById("linear01");
+  symbol.classList.toggle("rot");
+  category.classList.toggle("active");
+  if(n == 0){
+    selected.style.display = "flex";
+    n = 1;
+  } else if(n != 0){
+    alert("can only choose 1 category !");
+  }
+}
+function ind(){
+  let symbol = document.getElementById("dropdown-symbol");
+  let category = document.getElementById("category_list");
+  let selected = document.getElementById("ind01");
+  symbol.classList.toggle("rot");
+  category.classList.toggle("active");
+  if(n == 0){
+    selected.style.display = "flex";
+    n = 1;
+  } else if(n != 0){
+    alert("can only choose 1 category !");
+  }
+}
+function delcalc(){
+  let selected = document.getElementById("calculus01");
+  selected.style.display = "none";
+  n = 0;
+}
+function delhci(){
+  let selected = document.getElementById("hci01");
+  selected.style.display = "none";
+  n = 0;
+}
+function delbas(){
+  let selected = document.getElementById("bastat01");
+  selected.style.display = "none";
+  n = 0;
+}
+function dellin(){
+  let selected = document.getElementById("linear01");
+  selected.style.display = "none";
+  n = 0;
+}
+function delind(){
+  let selected = document.getElementById("ind01");
+  selected.style.display = "none";
+  n = 0;
+}

@@ -664,7 +664,7 @@ body.popup-active {
 .container_post_notes{
     width: 460px;
     height: 230px;
-    /* border: 1px solid red; */
+    /* border: 1px solid black; */
 }
 .preview_img_box{
     width: 270px;
@@ -823,4 +823,60 @@ body.popup-active {
     background-color: white;
     color: black;
     transition: ease-in-out 0.5s;
+}
+.selected_cont{
+    width: 450px;
+    height: 23px;
+    max-width: 450px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+.selected_category{
+    height: 23px;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    background-color: rgba(94, 111, 129, 1);
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selected_category i{
+    font-size: 7px;
+    margin-right: 10px;
+}
+#calculus01{
+    width: 97px;
+    display: none;
+    cursor: pointer;
+}
+#hci01{
+    width: 240px;
+    display: none;
+    cursor: pointer;
+}
+#bastat01{
+    width: 130px;
+    display: none;
+    cursor: pointer;
+}
+#linear01{
+    width: 130px;
+    display: none;
+    cursor: pointer;
+}
+#ind01{
+    width: 97px;
+    display: none;
+    cursor: pointer;
 }

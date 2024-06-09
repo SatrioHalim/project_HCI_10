@@ -151,11 +151,11 @@
                                 <i class="fa-solid fa-caret-down"></i>
                             </div>
                         </div>
-                        <div class="categories" onclick="toggleCategory()"><p>Calculus</p></div>
-                        <div class="categories" onclick="toggleCategory()"><p>Human Computer Interaction</p></div>
-                        <div class="categories" onclick="toggleCategory()"><p>Basic Statistics</p></div>
-                        <div class="categories" onclick="toggleCategory()"><p>Linear Algebra</p></div>
-                        <div class="categories" onclick="toggleCategory()"><p>Indonesian</p></div>
+                        <div class="categories" onclick="calculus()"><p>Calculus</p></div>
+                        <div class="categories" onclick="hci()"><p>Human Computer Interaction</p></div>
+                        <div class="categories" onclick="bastat()"><p>Basic Statistics</p></div>
+                        <div class="categories" onclick="linear()"><p>Linear Algebra</p></div>
+                        <div class="categories" onclick="ind()"><p>Indonesian</p></div>
                     </div>
                     <form id="post_notes">
                         <div class="container_post">
@@ -171,6 +171,13 @@
                                 <p id="post_txt_title">Post Notes Here</p>
                                 <input type="text" name="post" id="post" placeholder="Type Something ...">
                                 <p id="system_notes">By posting this note, you acknowledge that your submission may be considered for recommendation on our page.<span style="color: red;">**</span></p>
+                                <div class="selected_cont">
+                                    <div class="selected_category" id="calculus01" onclick="delcalc()"><i class="fa-solid fa-x"></i><p>CALCULUS</p></div>
+                                    <div class="selected_category" id="hci01" onclick="delhci()"><i class="fa-solid fa-x"></i><p>HUMAN COMPUTER INTERACTION</p></div>
+                                    <div class="selected_category" id="bastat01" onclick="delbas()"><i class="fa-solid fa-x"></i><p>Basic Statistic</p></div>
+                                    <div class="selected_category" id="linear01" onclick="dellin()"><i class="fa-solid fa-x"></i><p>Linear Algebra</p></div>
+                                    <div class="selected_category" id="ind01" onclick="delind()"><i class="fa-solid fa-x"></i><p>Indonesian</p></div>
+                                </div>
                             </div>
                         </div>
                         <div class="container_submit_discard">
