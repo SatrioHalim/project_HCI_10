@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forsa | Favorite Notes</title>
+    <link rel="stylesheet" href="favoritenotes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <a href="homePage.html"><i class="fa-solid fa-xmark"></i></a>
+        <p>PUBLIC PROFILE</p>
+    </nav>
+    <div class="upper_container">
+        <div class="image_container">
+            <img src="assets/Screenshot 2024-06-06 063021.png" alt="" id="gambar_unknown">
+            <img src="assets/gurita_shadow.png" alt="" id="gambar_gurita">
+        </div>
+        <div class="biodata_container">
+            <p class="title">Identity</p>
+            <p class="variable">Username</p>
+            <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p class="variable">Name</p>
+            <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p class="title" style="margin-top: 50px;">Education</p>
+            <p class="variable">Level of Education</p>
+            <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p class="variable">Univeristy / Institution</p>
+            <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p class="variable">Major</p>
+            <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p class="variable">Occupation</p>
+            <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+    </div>
+    <div class="post_container">
+        <div class="post_container_header">
+            POST
+        </div>
+        <div class="post_container_content">
+            <div class="content_container_row">
+                <div class="user_post">
+                    <div class="user_post_header">
+                        <div class="circle"></div>
+                        <p id="nickname">Username123</p>
+                        <div class="circle2"></div>
+                        <p id="time">12 minutes ago</p>
+                    </div>
+                <div class="user_post_content">
+                    <p id="post_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam perspiciatis numquam repellat sed incidunt natus atque harum eligendi repellendus dicta eaque labore voluptatum, aliquam rerum ut. Distinctio illo consequatur laudantium.</p>
+                    <div class="pretelan">
+                        <i class="fa-regular fa-eye"></i>
+                        <p>100</p>
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <p>15</p>
+                    </div>
+                </div>
+                </div>
+                <div class="user_post">
+                    <div class="user_post_header">
+                        <div class="circle"></div>
+                        <p id="nickname">Username123</p>
+                        <div class="circle2"></div>
+                        <p id="time">2 days ago</p>
+                    </div>
+                    <div class="user_post_content">
+                        <p id="post_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam perspiciatis numquam repellat sed incidunt natus atque harum eligendi repellendus dicta eaque labore voluptatum, aliquam rerum ut. Distinctio illo consequatur laudantium.</p>
+                        <div class="pretelan">
+                            <i class="fa-regular fa-eye"></i>
+                            <p>70</p>
+                            <i class="fa-regular fa-comment-dots"></i>
+                            <p>5</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="content_container_row">
+                
+            </div> -->
+        </div>
+    </div>
+    <div class="posted_notes_container">
+        <div class="post_container_header">
+            POSTED NOTES
+        </div>
+        <div class="post_img_container">
+            <img src="assets/20221229075444_63ad47c4bd5c6_catatan_kalkulus_integralpage0.jpg" alt="" onclick="overlay1()">
+            <img src="assets/20221229075444_63ad47c4bd5c6_catatan_kalkulus_integralpage2.jpg" alt="" onclick="overlay2()">
+            <img src="assets/1717168565.jpg" alt="" onclick="overlay3()">
+        </div>
+    </div>
+    <div class="overlay1" id="overlay1">
+        <i class="fa-solid fa-xmark" onclick="overlay1()"></i>
+        <img src="assets/20221229075444_63ad47c4bd5c6_catatan_kalkulus_integralpage0.jpg" alt="">
+    </div>
+    <div class="overlay2" id="overlay2">
+        <i class="fa-solid fa-xmark" onclick="overlay2()"></i>
+        <img src="assets/20221229075444_63ad47c4bd5c6_catatan_kalkulus_integralpage2.jpg" alt="">
+    </div>
+    <div class="overlay3" id="overlay3">
+        <i class="fa-solid fa-xmark" onclick="overlay3()"></i>
+        <img src="assets/1717168565.jpg" alt="">
+    </div>
+    <script src="favoritenotes.js"></script>
+</body>
+</html>

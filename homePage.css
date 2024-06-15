@@ -159,6 +159,11 @@ body{
     align-items: center;
     border-radius: 25px;
     background-color: #5D728E;
+    transition: all 0.3s ease-in-out;
+}
+#box_see_all:hover{
+    background-color: white;
+    color: black;
 }
 #font_recommended_course{
     font-family: "Outfit", sans-serif;
