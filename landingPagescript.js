@@ -4,3 +4,6 @@ function toogleClass() {
     document.getElementsByClassName("hamburger-menu")[0].classList.toggle('open')
     document.getElementsByClassName("sidebar")[0].classList.toggle('open')
 }
+function goLogin(){
+    window.location.href = "login-page.html"
+}
