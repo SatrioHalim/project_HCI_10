@@ -2,7 +2,7 @@
 
 This Repository contains a Vanilla Project (Pure HTML, CSS, JS) for the final assignment of Human Computer Interaction Course.
 
-Here is the developer team : 
+Our #1 team : 
 - Evelyn Christine  
 - Ida Bagus Davin Pidada  
 - Joicelyn Evelyn  
