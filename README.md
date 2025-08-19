@@ -1,6 +1,6 @@
 # Human Computer Interaction Project
 
-This Repository contains a Vanilla Project (Pure HTML, CSS, JS) for the final assignment of Human Computer Interaction Course.
+This Repository contains a Vanilla Project (HTML, CSS, JS) for the final assignment of Human Computer Interaction Course.
 
 Our #1 team : 
 - Evelyn Christine  
